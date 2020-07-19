@@ -1,0 +1,9 @@
+
+<div class="input-group mb-3 w-100">
+<input type="text" (keyup.enter)="handleAdd()" name="todo" placeholder="Enter A ToDo" [(ngModel)]="todoTitle" class="form-control">
+<div class="input-group-append" >
+    <button class="btn btn-primary" (click)="handleAdd()" type="button"  >Add Todo</button>
+</div>
+
+
+</div>

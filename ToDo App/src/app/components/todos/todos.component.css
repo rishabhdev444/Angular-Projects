@@ -1,0 +1,12 @@
+.completedTodo {
+  color: darkgray;
+  text-decoration: line-through;
+}
+
+li{
+  margin-top: 10px;
+}
+
+li:hover{
+  border: 2px solid #019031;
+}
